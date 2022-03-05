@@ -1,0 +1,26 @@
+body {
+  display: block;
+  overflow: hidden;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #683aa4 !important;
+}
+
+nav ul li a {
+  color: #a9a9a9;
+  font-size: 1.3rem;
+  margin: auto 0.625rem;
+}
+
+nav ul li a:hover {
+  color: #683aa4 !important;
+}
+
