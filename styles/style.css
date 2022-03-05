@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
 body {
   display: block;
   overflow: hidden;
@@ -24,3 +34,53 @@ nav ul li a:hover {
   color: #683aa4 !important;
 }
 
+/* Hero Section */
+section {
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #683aa4 !important;
+  text-align: left;
+  margin-bottom: 1.425rem;
+}
+
+.hero button {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+
+.hero .col {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.hero .img-col {
+  justify-content: flex-end;
+  margin-top: 5rem;
+}
+
+.hero img {
+  max-width: 80% !important;
+  width: 80%;
+}
+
+.hero .card {
+  box-shadow: 11px 7px 16px #f9f9f9;
+  border: 0;
+  text-align: center;
+}
+
+.hero .cards .card {
+  width: 18rem;
+}
+
+.hero .icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1.35rem;
+}
